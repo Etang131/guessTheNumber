@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    <title>Guess A Number!</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="rulesSection">
+            <h2 class="rulesSection-header">Guess The Number</h2>
+            <p class="rulesSection-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus natus fuga optio autem voluptatibus, possimus quidem veritatis tempora iste.</p>
+        </div>
+        <div class="mysteryNumberSection">
+            <p class="mysterrNumberSection-number" id="number">?</p>
+        </div>
+        <div class="gameControls">
+            <div class="gameControls-Commands">
+                <input type="number" class="gameControls-Commands-input" id="guess">
+                <button class="gameControls-Commands-input" id="checkNumber"></button>
+            </div>
+            <div class="gameControls-scoresSection">
+                <p class="gameControls-scoresSection-text" id="message">Start Guessing!</p>
+                <p class="gameControls-scoresSection-text">Score: <span id="score"></span></p>
+                <p class="gameControls-scoresSection-text">Score: <span id="Highscore"></span></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
