@@ -1,0 +1,82 @@
+.container {
+  background-color: forestgreen;
+  height: 100vh;
+}
+
+.rulesSection-header {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.rulesSection-text {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.mysteryNumberSection {
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  width: 160px;
+}
+
+.mysterrNumberSection-number {
+  color: white;
+  font-weight: bold;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.gameControls {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.gameControls-Commands {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.gameControls-Commands-input {
+  background-color: goldenrod;
+  border-radius: 15px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+  outline: none;
+}
+
+input {
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Score Section*/
+
+.gameControls-scoresSection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.gameControls-scoresSection-text {
+  color: white;
+  font-weight: 1rem;
+  font-weight: bold;
+}
+
+.gameControls-scoresSection-text span {
+  color: white;
+  font-weight: 1rem;
+  font-weight: bold;
+}
