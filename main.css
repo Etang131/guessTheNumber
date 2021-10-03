@@ -1,6 +1,7 @@
 .container {
-  background-color: forestgreen;
+  background-color: black;
   height: 100vh;
+  font-family: monospace;
 }
 
 .rulesSection-header {
@@ -19,7 +20,7 @@
 }
 
 .mysteryNumberSection {
-  background-color: goldenrod;
+  background-color: purple;
   display: flex;
   justify-content: center;
   margin: 25px auto;
