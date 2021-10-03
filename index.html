@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-    <script src="app.js"></script>
-    <title>Guess A Number!</title>
+    <title>Guess The Number!</title>
 </head>
 <body>
     <div class="container">
         <div class="rulesSection">
             <h2 class="rulesSection-header">Guess The Number</h2>
-            <p class="rulesSection-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus natus fuga optio autem voluptatibus, possimus quidem veritatis tempora iste.</p>
+            <p class="rulesSection-text">Guess the random number between 1 and 20.</p>
         </div>
         <div class="mysteryNumberSection">
             <p class="mysterrNumberSection-number" id="number">?</p>
@@ -21,14 +20,16 @@
         <div class="gameControls">
             <div class="gameControls-Commands">
                 <input type="number" class="gameControls-Commands-input" id="guess">
-                <button class="gameControls-Commands-input" id="checkNumber"></button>
+                <button class="gameControls-Commands-input" id="checkNumber">Check!</button>
+                <button class="gameControls-Commands-input" id="reset">Play again!</button>
             </div>
             <div class="gameControls-scoresSection">
-                <p class="gameControls-scoresSection-text" id="message">Start Guessing!</p>
-                <p class="gameControls-scoresSection-text">Score: <span id="score"></span></p>
-                <p class="gameControls-scoresSection-text">Score: <span id="Highscore"></span></p>
+                <p class="gameControls-scoresSection-text" id="message">Start Guessing...</p>
+                <p class="gameControls-scoresSection-text">Score: <span id="score">20</span></p>
+                <p class="gameControls-scoresSection-text">Highscore: <span id="highScore">0</span></p>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
